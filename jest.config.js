@@ -1,6 +1,6 @@
 const ignores = ['/node_modules/', '/fixtures/'];
 
-const testDir = ['src/**/*.js'];
+const testDir = ['dist/**/*.js'];
 
 module.exports = {
   collectCoverageFrom: [...testDir],
