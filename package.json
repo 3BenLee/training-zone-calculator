@@ -9,7 +9,8 @@
   "scripts": {
     "test": "jest",
     "build": "tsc",
-    "coverage": "npm test -- --coverage"
+    "coverage": "npm test -- --coverage",
+    "validate": "npm run build && npm run coverage"
   },
   "keywords": [],
   "author": "",
