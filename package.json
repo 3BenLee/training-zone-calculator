@@ -2,7 +2,7 @@
   "name": "training-zone-calculator",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
   "directories": {
     "test": "tests"
   },
