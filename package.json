@@ -1,8 +1,11 @@
 {
   "name": "training-zone-calculator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
   "directories": {
     "test": "tests"
   },
@@ -12,13 +15,27 @@
     "coverage": "npm test -- --coverage",
     "validate": "npm run build && npm run coverage"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "cycling-power-zone",
+    "typescript",
+    "cycling-training",
+    "ftp",
+    "cycling"
+  ],
+  "author": "Ben Harned <bendesigns76@gmail.com> (bendesigns76@gmail.com)",
   "devDependencies": {
     "@types/jest": "^24.0.13",
     "jest": "^24.8.0",
     "tslint": "^5.17.0",
     "typescript": "^3.5.1"
-  }
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/3BenLee/training-zone-calculator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/3BenLee/training-zone-calculator/issues"
+  },
+  "homepage": "https://github.com/3BenLee/training-zone-calculator/blob/master/README.md"
 }
